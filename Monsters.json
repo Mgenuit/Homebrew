@@ -21,7 +21,7 @@
             "name": "Flux spirit",
             "source": "local",
             "page": 208,
-            "size": "L",
+            "size": "S",
             "type": "elemental",
             "alignment": [
                 "C",
@@ -29,10 +29,7 @@
             ],
             "ac": [
                 {
-                    "ac": 14,
-                    "from": [
-                        "natural armor"
-                    ]
+                    "ac": 14
                 }
             ],
             "hp": {
