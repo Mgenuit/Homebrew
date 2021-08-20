@@ -1,0 +1,94 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "mg",
+				"abbreviation": "mg",
+				"full": "Monsters of the Apocalypse",
+				"authors": [
+					""
+				],
+				"version": "0.0.1",
+				"url": "",
+				"targetSchema": "1.6.3"
+			}
+		],
+		"dateAdded": 1608367627,
+		"dateLastModified": 1608367627
+	},
+    "item":[		{
+        "name": "Bow of ?",
+        "weapon": true,
+        "rarity": "common",
+        "dmg1": "1d8/1d8",
+        "dmgType": "P",
+        "property": [
+            "2H",
+            "H"
+        ],
+        "range": "150/600",
+        "source": "mg homebrow",
+        "ammoType": "arrow|phb",
+        "bonus": "+1",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "",
+            "It looks special ... but you don't know",
+        "Range 150/600"]
+    },		{
+        "name": "Long Bow of Minor Crit Storing",
+        "weapon": true,
+        "rarity": "common",
+        "dmg1": "1d8/1d8",
+        "dmgType": "P",
+        "charges": 3,
+        "recharge": "special",
+        "property": [
+            "2H",
+            "H"
+        ],
+        "range": "150/600",
+        "source": "mg homebrow",
+        "ammoType": "arrow|phb",
+        "reqAttune": true,
+        "bonus": "+1",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "",
+            "This bow can hold up to 3 charges.",
+            "When you roll a crit you can instead opt to store the crit as a charge",
+            "Charges can be spend in two way's",
+            "1. During an attack to upgrade a normal hit to a critical hit",
+            "2. As a reaction to cancel a crit of any enemy within 30 ft",
+            "Range 150/600"]
+    }],
+    "variant":[
+		{
+			"name": "Chain connector",
+			"source": "mg homebrew",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Handaxe"
+				},
+				{
+					"name": "Shortsword"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " on a chain",
+				"source": "mg homebrew",
+				"rarity": "common",
+                "property": [
+                    "F",
+                    "2H"
+                ],
+				"reqAttune": false,
+				"entries": [
+				"Adding this chain to a melee weapon gives it the two-handed and finesse properties if it doesn't already have the two-handed property.",
+                "Taking the Two-Handed Weaponmaster feat allows you to attach two-handed and versatile weapons to a chain without penalty. In case of a versatile weapon the two-handed dmg dice is used"
+                ]
+			}
+		}
+    ]
+}
