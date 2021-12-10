@@ -18,6 +18,101 @@
 	},
 	"monster": [
         {
+	"name": "Nalga",
+	"source": "mg",
+	"page": 178,
+	"size": "M",
+	"type": "monstrosity",
+	"alignment": [
+		{
+			"special": ""
+		}
+	],
+	"ac": [
+		{
+			"ac": 14,
+			"from": [
+				"natural armor"
+			]
+		}
+	],
+	"hp": {
+		"average": 22,
+		"formula": "4d8 + 4"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 13,
+	"dex": 11,
+	"con": 13,
+	"int": 8,
+	"wis": 8,
+	"cha": 10,
+	"senses": [
+		"darkvision 60 ft."
+	],
+	"passive": 9,
+	"languages": [
+		"Common",
+		"Draconic"
+	],
+	"cr": "1/2",
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"The draconian makes two Hammer attacks."
+			]
+		},
+		{
+			"name": "Hammer",
+			"entries": [
+				"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 3}) piercing damage."
+			]
+		}
+	],
+	"senseTags": [
+		"D"
+	],
+	"actionTags": [
+		"Multiattack"
+	],
+	"languageTags": [
+		"C",
+		"DR"
+	],
+	"damageTags": [
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"hasFluff": true,
+	"hasFluffImages": true,
+	"tokenUrl": "https://i.imgur.com/s0wzi3v.png",
+	"spellcasting": [
+		{
+			"name": "Spellcasting",
+			"will": [
+				"{@spell armor of Agathys} Armour of magical shards apears all around her"
+			],
+			"type": "spellcasting"
+		}
+	],
+	"isNpc": true,
+	"fluff": {
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://static.wikia.nocookie.net/blackbandos-homebrew/images/3/35/Isegrimm_Stormgaze.jpg/revision/latest/scale-to-width-down/220?cb=20171206142833"
+				}
+			}
+		]
+	}
+},{
             "name": "Malick Mercuri",
             "source": "local",
             "page": 343,
