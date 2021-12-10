@@ -20,7 +20,7 @@
         {
 	"name": "Nalga",
 	"source": "mg",
-	"page": 178,
+	"page": 172,
 	"size": "M",
 	"type": "monstrosity",
 	"alignment": [
@@ -112,7 +112,8 @@
 			}
 		]
 	}
-},{
+},
+{
             "name": "Malick Mercuri",
             "source": "local",
             "page": 343,
