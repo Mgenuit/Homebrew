@@ -100,6 +100,63 @@
                 }
             ],
             "group": "Kirino Rebelion"
-        }
+        },{
+	"name": "Lanar Heftr",
+	"source": "mg",
+	"page": 0,
+	"basicRules": true,
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"Human"
+		]
+	},
+	"alignment": null,
+	"ac": [
+		10
+	],
+	"hp": {
+		"formula": "2d8 + 2",
+		"average": 11
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 13,
+	"dex": 12,
+	"con": 13,
+	"int": 8,
+	"wis": 10,
+	"cha": 10,
+	"passive": 10,
+	"languages": [
+		"Common"
+	],
+	"cr": "1/8",
+	"action": [
+		{
+			"name": "War Pick",
+			"entries": [
+				"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8 + 1}) slashing damage."
+			]
+		}
+	],
+	"soundClip": {
+		"type": "external",
+		"url": "https://5e.tools/audio/bestiary/bandit.mp3"
+	},
+	"languageTags": [
+		"C"
+	],
+	"damageTags": [
+		"S"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"hasFluff": true,
+	"tokenUrl": "https://i.imgur.com/vdlce2n.png"
+}
             ]
 }
