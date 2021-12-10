@@ -1,0 +1,105 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "mg",
+				"abbreviation": "mg",
+				"full": "Npc",
+				"authors": [
+					""
+				],
+				"version": "0.0.1",
+				"url": "",
+				"targetSchema": "1.6.3"
+			}
+		],
+		"dateAdded": 1608367627,
+		"dateLastModified": 1608367627
+	},
+	"monster": [
+        {
+            "name": "Malick Mercuri",
+            "source": "local",
+            "page": 343,
+            "basicRules": true,
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "Gnome"
+                ]
+            },
+            "alignment": [
+                "NX",
+                "C",
+                "G",
+                "NY",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "{@item leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "2d8 + 2",
+                "average": 11
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 10,
+            "con": 9,
+            "int": 15,
+            "wis": 10,
+            "cha": 10,
+            "passive": 10,
+            "languages": [
+                "Common",
+                "Gnomish"
+            ],
+            "cr": "1/8",
+            "action": [
+                {
+                    "name": "Scimitar",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Bolt Blaster",
+                    "entries": [
+                        "{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C",
+                "G"
+            ],
+            "damageTags": [
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "hasFluff": true,
+            "tokenUrl": "https://i.imgur.com/cldOgEg.png",
+            "bonus": [
+                {
+                    "name": "Controll Construct",
+                    "entries": [
+                        "Malick can use his bonus action to yield his turn to one of his construct allies"
+                    ]
+                }
+            ],
+            "group": "Kirino Rebelion"
+        }
+            ]
+}
